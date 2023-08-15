@@ -6,3 +6,35 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+.motion{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  
+}
+  .box {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-image: url("https://plus.unsplash.com/premium_photo-1688375301014-d47ef7e989ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+    background-size: cover;
+  }
+  .box-1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-image: url("https://images.unsplash.com/photo-1542996966-2e31c00bae31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+    background-size: cover;
+  }
+  .box-2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-image: url("https://images.unsplash.com/photo-1683203096683-1a27dc5c010b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+    background-size: cover;
+  }
+

@@ -12,8 +12,8 @@ const App =() => {
       <Routes>
         <Route path="/" element={<Referal />} />
         <Route path="/dashboard" element={<Referal />} />
-        <Route path='/status' element={<div style={{ display: "flex" }}><Sidebar/><Status /> </div>}/>
-        <Route path='/calender' element={<div style={{ display: "flex" }}><Sidebar /> <Calender /> </div>}/>
+        <Route path='/about' element={<div style={{ display: "flex" }}><Sidebar/><Status /> </div>}/>
+        <Route path='/gallery' element={<div style={{ display: "flex" }}><Sidebar /> <Calender /> </div>}/>
         <Route path='/setting' element={<div style={{ display: "flex" }}><Sidebar /> <Setting /> </div>}/>
         <Route path='/projects' element={<div style={{ display: "flex" }}><Sidebar /> <Projects /> </div>}/>
         <Route path='/team' element={<div style={{ display: "flex" }}> <Team /> </div>}/>
